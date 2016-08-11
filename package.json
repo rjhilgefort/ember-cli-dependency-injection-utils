@@ -15,7 +15,14 @@
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": {
+    "name": "Rob Hilgefort",
+    "email": "rjhilgefort@gmail.com"
+  },
+  "contributors": [{
+    "name": "Andy Orahoske",
+    "email": "orahoske.2@gmail.com"
+  }],
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.2",

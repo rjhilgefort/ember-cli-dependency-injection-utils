@@ -1,5 +1,5 @@
 ember-cli-dependency-injection-utils
-================
+====================================
 
 A utility library for more concise dependency injection through Ember initializers.
 
@@ -61,8 +61,8 @@ export function initialize(application) {
   // Inject these services in common Ember places
   injectThroughout(application, 'service:site');
   injectThroughout(application, 'service:session');
-  injectThroughout(application, 'service:some-ga-analytics);
-  injectThroughout(application, 'service:any-service-you-need-everywhere);
+  injectThroughout(application, 'service:some-ga-analytics');
+  injectThroughout(application, 'service:any-service-you-need-everywhere');
 }
 
 export default { name: 'dependency-injection', initialize };
@@ -73,3 +73,7 @@ export default { name: 'dependency-injection', initialize };
 - Formally document the methods in this `README`.
 - Write tests!
 - Properly import lodash
+
+## Contributors
+
+- [@AO16](https://github.com/AO16): Original implementation

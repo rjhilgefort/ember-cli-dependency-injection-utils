@@ -14,7 +14,7 @@ ember install:addon ember-cli-dependency-injection-utils
 
 ## Usage
 
-Below is a sample initializer file/pattern you might create. For additional info, please [check out the source]().
+Below is a sample initializer file/pattern you might create. For additional info, please [check out the source](addon/injex.js).
 
 **Simple example**
 
